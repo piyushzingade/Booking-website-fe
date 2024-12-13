@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "ES6",
+    "jsx": "react-jsx", // For TypeScript 4.1+, use "react-jsx", otherwise use "react"
+    "esModuleInterop": true, // Fixes import issues
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
